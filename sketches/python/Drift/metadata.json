@@ -1,0 +1,367 @@
+{
+  "19": {
+    "dir": 3, 
+    "id": 58071, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "0": {
+    "dir": 0, 
+    "id": 15361, 
+    "tags": [
+      "bell", 
+      "ethnic", 
+      "metal", 
+      "metallic", 
+      "percussion", 
+      "tibetan-singing-bowl"
+    ]
+  }, 
+  "1": {
+    "dir": 0, 
+    "id": 181749, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "10": {
+    "dir": 0, 
+    "id": 154019, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "f-sharp-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "11": {
+    "dir": 0, 
+    "id": 154017, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "e-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "12": {
+    "dir": 0, 
+    "id": 154018, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "f-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "13": {
+    "dir": 0, 
+    "id": 154002, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "a-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "14": {
+    "dir": 0, 
+    "id": 154022, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "a-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "15": {
+    "dir": 0, 
+    "id": 154021, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "g-sharp-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "16": {
+    "dir": 0, 
+    "id": 58057, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "17": {
+    "dir": 0, 
+    "id": 58076, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "18": {
+    "dir": 0, 
+    "id": 14567, 
+    "tags": [
+      "acoustic", 
+      "am", 
+      "free", 
+      "guitar", 
+      "minor", 
+      "sample", 
+      "sound", 
+      "wav", 
+      "yamaha"
+    ]
+  }, 
+  "19": {
+    "dir": 0, 
+    "id": 14566, 
+    "tags": [
+      "a", 
+      "acoustic", 
+      "diminished", 
+      "free", 
+      "guitar", 
+      "sample", 
+      "sound", 
+      "wav", 
+      "yamaha"
+    ]
+  }, 
+  "2": {
+    "dir": 0, 
+    "id": 53895, 
+    "tags": [
+      "hankdrum"
+    ]
+  }, 
+  "20": {
+    "dir": 0, 
+    "id": 58055, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "21": {
+    "dir": 0, 
+    "id": 58063, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "22": {
+    "dir": 0, 
+    "id": 58041, 
+    "tags": [
+      "chord", 
+      "strummed", 
+      "acoustic", 
+      "guitar"
+    ]
+  }, 
+  "23": {
+    "dir": 0, 
+    "id": 58058, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "24": {
+    "dir": 0, 
+    "id": 58056, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "25": {
+    "dir": 0, 
+    "id": 58054, 
+    "tags": [
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "strummed"
+    ]
+  }, 
+  "26": {
+    "dir": 0, 
+    "id": 14564, 
+    "tags": [
+      "a6", 
+      "acoustic", 
+      "chord", 
+      "guitar", 
+      "yamaha"
+    ]
+  }, 
+  "3": {
+    "dir": 0, 
+    "id": 261977, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "4": {
+    "dir": 0, 
+    "id": 261673, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "5": {
+    "dir": 0, 
+    "id": 261772, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "6": {
+    "dir": 0, 
+    "id": 261672, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "7": {
+    "dir": 0, 
+    "id": 261974, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "8": {
+    "dir": 0, 
+    "id": 275364, 
+    "tags": [
+      "electric", 
+      "Bass", 
+      "distortion", 
+      "guitar"
+    ]
+  }, 
+  "9": {
+    "dir": 0, 
+    "id": 154020, 
+    "tags": [
+      "multisample", 
+      "zoom-h2n", 
+      "non-vibrato", 
+      "plucked", 
+      "mezzoforte", 
+      "g-2", 
+      "plucked-string-instrument", 
+      "chordophone", 
+      "classical-guitar"
+    ]
+  }, 
+  "soundgroup": "keyboard"
+}

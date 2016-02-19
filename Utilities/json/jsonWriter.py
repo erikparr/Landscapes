@@ -1,4 +1,6 @@
+
 import json
+import os.path
 #superDict = {'sounddata':'sounddata'}
 #dirDict = {'dir':1, 'dir1':2}
 #dict = {'id':12823, 'num':1, 'tags':['something','here','yes']}
@@ -12,9 +14,7 @@ class JSONWriter:
         global rootName # the root name of the docuement
         path = filepath
         rootName = documentRootName
-
-
-
+    
     def createNew(self, dictionary):
         global path
         global rootName
@@ -22,7 +22,7 @@ class JSONWriter:
     #    for i in tags:
     #        print i
         json_string =  json.dumps(dictionary, indent=2, sort_keys=True)
-        jsonFile = open(path, 'w')
+        jsonFile = open(path, 'w+')
         jsonFile.write(json_string)
 
     def appendDict(self, targetKey, newDict):
@@ -84,3 +84,20 @@ class JSONWriter:
         
         #        print "number of soundfiles: "+str(len(data))
         return len(data)
+    
+    def fileExists(self):
+        global path
+        if os.path.isfile(path):
+            return True
+        else:
+            return False
+
+    def isNewFile(self):
+        global path
+        jsonFile = open(path, "r+")
+        data = json.load(jsonFile)
+        print "data dict size: "+str(len(data))
+        if len(data)<2: #
+            return True
+        else:
+            return False
