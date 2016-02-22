@@ -11,19 +11,21 @@ sys.path.insert(0, '/Users/erikparr/Documents/_Projects/Landscapes/Utilities/jso
 from jsonWriter import JSONWriter
 
 #init
-soundgroup = "keyboard"
-NEWSESSION = False
+soundgroup = "Tibetan Bell"
+NEWSESSION = True
 c = freesound.FreesoundClient()
 apiKey = "a93ac1a1b2bfc3118513999530391a5bb874edf7" #apikey/token/Client secret
 clientId = "0eda595d0c08565c7a7c"
 refreshToken = ""
 accessToken = ""
 c.set_token(apiKey,"token")
-currentId = 15361
-soundfileIndex = 0
-targetDir = 0
-maxDirs = 5
-maxSoundFiles = 25
+startId = 15361 #starting "seed" Freesound sound ID
+currentId = startId #current sound ID in the process
+soundfileIndex = 0 #index of soundfile in the directory
+groupIndex = 0 #index of soundfile in the group
+targetDir = 0 #current directory being downloaded to
+maxDirs = 5 # maximum number of directories
+maxSoundFiles = 25 #number of soundfiles (see: soundfileIndex) in a given folder
 sndpath = '/Users/erikparr/Documents/_Projects/Landscapes/snd/test/'
 currentPath = '/Users/erikparr/Documents/_Projects/Landscapes/sketches/python/Drift/'
 metadata = JSONWriter(soundgroup, currentPath+'metadata.json')
@@ -48,12 +50,14 @@ def refreshToken():
 # ------------------------------------
 def loadSoundMetadata():
     global soundfileIndex
+    global groupIndex
     global targetDir
     global currentId
     if metadata.fileExists() == False or NEWSESSION or metadata.isNewFile():
         metadata.createNew({"soundgroup":soundgroup})
     else:
-        soundfileIndex = metadata.getTotalSoundfiles()
+        soundfileIndex = metadata.getSoundFileIndex()
+#        groupIndex = metadata.getGroupIndex()
         targetDir = metadata.getLastDir()
         currentId = getLastID()
 
@@ -64,16 +68,21 @@ def soundExists(currentId):
 def manageData():
     global descriptors
     global soundfileIndex
+    global groupIndex
     global maxSoundFiles
     global targetDir
-    metadata.appendDict(soundfileIndex, descriptors)
+    global startId
+    global currentId
+    metadata.appendDict(groupIndex, descriptors)
     if soundfileIndex>maxSoundFiles:
         soundfileIndex=0
         targetDir+=1
+        currentId = startId #reset to first sound
     soundfileIndex+=1
+    groupIndex+=1
 
 # ------------------------------------
-def getNewSound(id):
+def getNewSound(id, fileIndex):
     global descriptors
     global targetDir
     sound = None
@@ -81,7 +90,7 @@ def getNewSound(id):
         try:
             sound = c.get_sound(id) #start with a given sound id
             descriptors.clear()
-            descriptors = {'id':currentId, 'dir':targetDir, 'tags': sound.tags}
+            descriptors = {'id':currentId, 'dir':targetDir, 'tags': sound.tags, 'filename': str(fileIndex)+"."+str(sound.type)}
         except urllib2.URLError:
             print "can't connect .. trying again..."
             time.sleep(1)
@@ -94,7 +103,7 @@ def driftSound():
     global sndpath
     global targetDir
     similarSoundList = None
-    newSound = getNewSound(currentId)
+    newSound = getNewSound(currentId, soundfileIndex)
         
     if metadata.doesIdExist(currentId):
         while similarSoundList is None:
@@ -115,7 +124,7 @@ def driftSound():
             else:
                 print "new similar sound found"
                 currentId = similarSound.id
-                newSound = getNewSound(currentId)
+                newSound = getNewSound(currentId, soundfileIndex) # if new similar sound is found,
                 break
 
     targetPath = str(sndpath)+str(targetDir)+"/"

@@ -30,6 +30,7 @@ class JSONWriter:
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
         data[targetKey] = (newDict)
+#        print "appending to json file: " +
         jsonFile = open(path, "r+")
         jsonFile.truncate()
         jsonFile.write(json.dumps(data, indent=2, sort_keys=True))
@@ -59,7 +60,7 @@ class JSONWriter:
                 for i in tags:
                     print i
 
-    def getTotalSoundfiles(self):
+    def getSoundFileIndex(self):
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)

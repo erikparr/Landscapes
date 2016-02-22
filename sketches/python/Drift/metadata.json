@@ -1,16 +1,21 @@
 {
-  "19": {
-    "dir": 3, 
-    "id": 58071, 
+  "156": {
+    "dir": 5, 
+    "filename": "26.wav", 
+    "id": 288189, 
     "tags": [
-      "acoustic", 
-      "chord", 
-      "guitar", 
-      "strummed"
+      "midi-velocity-15", 
+      "F5", 
+      "midi-note-78", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
     ]
   }, 
   "0": {
     "dir": 0, 
+    "filename": "0.aiff", 
     "id": 15361, 
     "tags": [
       "bell", 
@@ -23,6 +28,7 @@
   }, 
   "1": {
     "dir": 0, 
+    "filename": "1.wav", 
     "id": 181749, 
     "tags": [
       "piano", 
@@ -37,6 +43,7 @@
   }, 
   "10": {
     "dir": 0, 
+    "filename": "10.wav", 
     "id": 154019, 
     "tags": [
       "multisample", 
@@ -50,8 +57,169 @@
       "classical-guitar"
     ]
   }, 
+  "100": {
+    "dir": 3, 
+    "filename": "22.wav", 
+    "id": 261796, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "101": {
+    "dir": 3, 
+    "filename": "23.wav", 
+    "id": 261935, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "102": {
+    "dir": 3, 
+    "filename": "24.wav", 
+    "id": 261680, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "103": {
+    "dir": 3, 
+    "filename": "25.wav", 
+    "id": 261960, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "104": {
+    "dir": 3, 
+    "filename": "26.wav", 
+    "id": 261958, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "105": {
+    "dir": 4, 
+    "filename": "1.aiff", 
+    "id": 308202, 
+    "tags": [
+      "midi-velocity-48", 
+      "E5", 
+      "midi-note-76", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "106": {
+    "dir": 4, 
+    "filename": "2.aiff", 
+    "id": 308206, 
+    "tags": [
+      "midi-velocity-48", 
+      "ESharp5", 
+      "midi-note-77", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "107": {
+    "dir": 4, 
+    "filename": "3.aiff", 
+    "id": 308210, 
+    "tags": [
+      "midi-velocity-48", 
+      "F5", 
+      "midi-note-78", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "108": {
+    "dir": 4, 
+    "filename": "4.aiff", 
+    "id": 308214, 
+    "tags": [
+      "midi-velocity-48", 
+      "FSharp5", 
+      "midi-note-79", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "109": {
+    "dir": 4, 
+    "filename": "5.aiff", 
+    "id": 308218, 
+    "tags": [
+      "midi-velocity-48", 
+      "G5", 
+      "midi-note-80", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "11": {
     "dir": 0, 
+    "filename": "11.wav", 
     "id": 154017, 
     "tags": [
       "multisample", 
@@ -65,8 +233,151 @@
       "classical-guitar"
     ]
   }, 
+  "110": {
+    "dir": 4, 
+    "filename": "6.aiff", 
+    "id": 308222, 
+    "tags": [
+      "midi-velocity-48", 
+      "A5", 
+      "midi-note-81", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "111": {
+    "dir": 4, 
+    "filename": "7.aiff", 
+    "id": 308226, 
+    "tags": [
+      "midi-velocity-48", 
+      "ASharp5", 
+      "midi-note-82", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "112": {
+    "dir": 4, 
+    "filename": "8.aiff", 
+    "id": 308230, 
+    "tags": [
+      "midi-velocity-48", 
+      "B5", 
+      "midi-note-83", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "113": {
+    "dir": 4, 
+    "filename": "9.aiff", 
+    "id": 308234, 
+    "tags": [
+      "midi-velocity-48", 
+      "C6", 
+      "midi-note-84", 
+      "Roland-JX-8P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "114": {
+    "dir": 4, 
+    "filename": "10.wav", 
+    "id": 124746, 
+    "tags": [
+      "bell", 
+      "bell-set", 
+      "bell-tone", 
+      "bells", 
+      "bong", 
+      "ding", 
+      "dong", 
+      "ping"
+    ]
+  }, 
+  "115": {
+    "dir": 4, 
+    "filename": "11.wav", 
+    "id": 124747, 
+    "tags": [
+      "bell", 
+      "bell-set", 
+      "bell-tone", 
+      "bells", 
+      "bong", 
+      "ding", 
+      "dong", 
+      "ping"
+    ]
+  }, 
+  "116": {
+    "dir": 4, 
+    "filename": "12.wav", 
+    "id": 124745, 
+    "tags": [
+      "bell", 
+      "bell-set", 
+      "bell-tone", 
+      "bells", 
+      "bong", 
+      "ding", 
+      "dong", 
+      "ping"
+    ]
+  }, 
+  "117": {
+    "dir": 4, 
+    "filename": "13.wav", 
+    "id": 124744, 
+    "tags": [
+      "bell", 
+      "bell-set", 
+      "bell-tone", 
+      "bells", 
+      "bong", 
+      "ding", 
+      "dong", 
+      "ping"
+    ]
+  }, 
+  "118": {
+    "dir": 4, 
+    "filename": "14.wav", 
+    "id": 124755, 
+    "tags": [
+      "bell", 
+      "bell-set", 
+      "bell-tone", 
+      "bells", 
+      "bong", 
+      "ding", 
+      "dong", 
+      "ping"
+    ]
+  }, 
+  "119": {
+    "dir": 4, 
+    "filename": "15.wav", 
+    "id": 18914, 
+    "tags": [
+      "chime", 
+      "chimebar", 
+      "note", 
+      "ping"
+    ]
+  }, 
   "12": {
     "dir": 0, 
+    "filename": "12.wav", 
     "id": 154018, 
     "tags": [
       "multisample", 
@@ -80,8 +391,136 @@
       "classical-guitar"
     ]
   }, 
+  "120": {
+    "dir": 4, 
+    "filename": "16.wav", 
+    "id": 18918, 
+    "tags": [
+      "chime", 
+      "chimebar", 
+      "note", 
+      "ping"
+    ]
+  }, 
+  "121": {
+    "dir": 4, 
+    "filename": "17.wav", 
+    "id": 18916, 
+    "tags": [
+      "chime", 
+      "chimebar", 
+      "note", 
+      "ping"
+    ]
+  }, 
+  "122": {
+    "dir": 4, 
+    "filename": "18.wav", 
+    "id": 181747, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "123": {
+    "dir": 4, 
+    "filename": "19.wav", 
+    "id": 181748, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "124": {
+    "dir": 4, 
+    "filename": "20.wav", 
+    "id": 322735, 
+    "tags": [
+      "m1", 
+      "korg", 
+      "tone"
+    ]
+  }, 
+  "125": {
+    "dir": 4, 
+    "filename": "21.aiff", 
+    "id": 279324, 
+    "tags": [
+      "E4", 
+      "midi-note-64", 
+      "Akai-AX80", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "126": {
+    "dir": 4, 
+    "filename": "22.aiff", 
+    "id": 304865, 
+    "tags": [
+      "E6", 
+      "midi-note-88", 
+      "Roland-Jupiter-4", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "127": {
+    "dir": 4, 
+    "filename": "23.aiff", 
+    "id": 304863, 
+    "tags": [
+      "D6", 
+      "midi-note-86", 
+      "Roland-Jupiter-4", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "128": {
+    "dir": 4, 
+    "filename": "24.aiff", 
+    "id": 279940, 
+    "tags": [
+      "DSharp4", 
+      "midi-note-63", 
+      "Akai-AX80", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "129": {
+    "dir": 4, 
+    "filename": "25.aiff", 
+    "id": 306215, 
+    "tags": [
+      "DSharp6", 
+      "midi-note-87", 
+      "Roland-JX-3P", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "13": {
     "dir": 0, 
+    "filename": "13.wav", 
     "id": 154002, 
     "tags": [
       "multisample", 
@@ -95,8 +534,148 @@
       "classical-guitar"
     ]
   }, 
+  "130": {
+    "dir": 4, 
+    "filename": "26.aiff", 
+    "id": 304864, 
+    "tags": [
+      "DSharp6", 
+      "midi-note-87", 
+      "Roland-Jupiter-4", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "131": {
+    "dir": 5, 
+    "filename": "1.aiff", 
+    "id": 300878, 
+    "tags": [
+      "midi-velocity-48", 
+      "ESharp4", 
+      "midi-note-65", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "132": {
+    "dir": 5, 
+    "filename": "2.aiff", 
+    "id": 300881, 
+    "tags": [
+      "midi-velocity-48", 
+      "F4", 
+      "midi-note-66", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "133": {
+    "dir": 5, 
+    "filename": "3.aiff", 
+    "id": 300884, 
+    "tags": [
+      "midi-velocity-48", 
+      "FSharp4", 
+      "midi-note-67", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "134": {
+    "dir": 5, 
+    "filename": "4.aiff", 
+    "id": 300883, 
+    "tags": [
+      "midi-velocity-16", 
+      "FSharp4", 
+      "midi-note-67", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "135": {
+    "dir": 5, 
+    "filename": "5.aiff", 
+    "id": 300880, 
+    "tags": [
+      "midi-velocity-16", 
+      "F4", 
+      "midi-note-66", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "136": {
+    "dir": 5, 
+    "filename": "6.aiff", 
+    "id": 300877, 
+    "tags": [
+      "midi-velocity-16", 
+      "ESharp4", 
+      "midi-note-65", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "137": {
+    "dir": 5, 
+    "filename": "7.aiff", 
+    "id": 300874, 
+    "tags": [
+      "midi-velocity-16", 
+      "E4", 
+      "midi-note-64", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "138": {
+    "dir": 5, 
+    "filename": "8.aiff", 
+    "id": 300871, 
+    "tags": [
+      "midi-velocity-16", 
+      "DSharp4", 
+      "midi-note-63", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "139": {
+    "dir": 5, 
+    "filename": "9.aiff", 
+    "id": 300872, 
+    "tags": [
+      "midi-velocity-48", 
+      "DSharp4", 
+      "midi-note-63", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "14": {
     "dir": 0, 
+    "filename": "14.wav", 
     "id": 154022, 
     "tags": [
       "multisample", 
@@ -110,8 +689,149 @@
       "classical-guitar"
     ]
   }, 
+  "140": {
+    "dir": 5, 
+    "filename": "10.aiff", 
+    "id": 300875, 
+    "tags": [
+      "midi-velocity-48", 
+      "E4", 
+      "midi-note-64", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "141": {
+    "dir": 5, 
+    "filename": "11.aiff", 
+    "id": 300869, 
+    "tags": [
+      "midi-velocity-48", 
+      "D4", 
+      "midi-note-62", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "142": {
+    "dir": 5, 
+    "filename": "12.aiff", 
+    "id": 300868, 
+    "tags": [
+      "midi-velocity-16", 
+      "D4", 
+      "midi-note-62", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "143": {
+    "dir": 5, 
+    "filename": "13.aiff", 
+    "id": 300862, 
+    "tags": [
+      "midi-velocity-16", 
+      "C4", 
+      "midi-note-60", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "144": {
+    "dir": 5, 
+    "filename": "14.aiff", 
+    "id": 300863, 
+    "tags": [
+      "midi-velocity-48", 
+      "C4", 
+      "midi-note-60", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "145": {
+    "dir": 5, 
+    "filename": "15.aiff", 
+    "id": 300866, 
+    "tags": [
+      "midi-velocity-48", 
+      "CSharp4", 
+      "midi-note-61", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "146": {
+    "dir": 5, 
+    "filename": "16.aiff", 
+    "id": 300865, 
+    "tags": [
+      "midi-velocity-16", 
+      "CSharp4", 
+      "midi-note-61", 
+      "Oberheim-Xpander", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "147": {
+    "dir": 5, 
+    "filename": "17.wav", 
+    "id": 289570, 
+    "tags": [
+      "midi-velocity-10", 
+      "CSharp5", 
+      "midi-note-73", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "148": {
+    "dir": 5, 
+    "filename": "18.wav", 
+    "id": 289576, 
+    "tags": [
+      "midi-velocity-10", 
+      "D5", 
+      "midi-note-74", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "149": {
+    "dir": 5, 
+    "filename": "19.wav", 
+    "id": 289582, 
+    "tags": [
+      "midi-velocity-10", 
+      "DSharp5", 
+      "midi-note-75", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "15": {
     "dir": 0, 
+    "filename": "15.wav", 
     "id": 154021, 
     "tags": [
       "multisample", 
@@ -125,8 +845,93 @@
       "classical-guitar"
     ]
   }, 
+  "150": {
+    "dir": 5, 
+    "filename": "20.wav", 
+    "id": 288185, 
+    "tags": [
+      "midi-velocity-15", 
+      "DSharp5", 
+      "midi-note-75", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "151": {
+    "dir": 5, 
+    "filename": "21.wav", 
+    "id": 289588, 
+    "tags": [
+      "midi-velocity-10", 
+      "E5", 
+      "midi-note-76", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "152": {
+    "dir": 5, 
+    "filename": "22.wav", 
+    "id": 289594, 
+    "tags": [
+      "midi-velocity-10", 
+      "ESharp5", 
+      "midi-note-77", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "153": {
+    "dir": 5, 
+    "filename": "23.wav", 
+    "id": 288591, 
+    "tags": [
+      "midi-velocity-20", 
+      "F5", 
+      "midi-note-78", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "154": {
+    "dir": 5, 
+    "filename": "24.wav", 
+    "id": 288590, 
+    "tags": [
+      "midi-velocity-12", 
+      "F5", 
+      "midi-note-78", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "155": {
+    "dir": 5, 
+    "filename": "25.wav", 
+    "id": 288589, 
+    "tags": [
+      "midi-velocity-4", 
+      "F5", 
+      "midi-note-78", 
+      "Fender-Chroma-Polaris", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "16": {
     "dir": 0, 
+    "filename": "16.wav", 
     "id": 58057, 
     "tags": [
       "acoustic", 
@@ -137,6 +942,7 @@
   }, 
   "17": {
     "dir": 0, 
+    "filename": "17.wav", 
     "id": 58076, 
     "tags": [
       "acoustic", 
@@ -147,6 +953,7 @@
   }, 
   "18": {
     "dir": 0, 
+    "filename": "18.wav", 
     "id": 14567, 
     "tags": [
       "acoustic", 
@@ -162,6 +969,7 @@
   }, 
   "19": {
     "dir": 0, 
+    "filename": "19.wav", 
     "id": 14566, 
     "tags": [
       "a", 
@@ -177,6 +985,7 @@
   }, 
   "2": {
     "dir": 0, 
+    "filename": "2.wav", 
     "id": 53895, 
     "tags": [
       "hankdrum"
@@ -184,6 +993,7 @@
   }, 
   "20": {
     "dir": 0, 
+    "filename": "20.wav", 
     "id": 58055, 
     "tags": [
       "acoustic", 
@@ -194,6 +1004,7 @@
   }, 
   "21": {
     "dir": 0, 
+    "filename": "21.wav", 
     "id": 58063, 
     "tags": [
       "acoustic", 
@@ -204,6 +1015,7 @@
   }, 
   "22": {
     "dir": 0, 
+    "filename": "22.wav", 
     "id": 58041, 
     "tags": [
       "chord", 
@@ -214,6 +1026,7 @@
   }, 
   "23": {
     "dir": 0, 
+    "filename": "23.wav", 
     "id": 58058, 
     "tags": [
       "acoustic", 
@@ -224,6 +1037,7 @@
   }, 
   "24": {
     "dir": 0, 
+    "filename": "24.wav", 
     "id": 58056, 
     "tags": [
       "acoustic", 
@@ -234,6 +1048,7 @@
   }, 
   "25": {
     "dir": 0, 
+    "filename": "25.wav", 
     "id": 58054, 
     "tags": [
       "acoustic", 
@@ -244,6 +1059,7 @@
   }, 
   "26": {
     "dir": 0, 
+    "filename": "26.wav", 
     "id": 14564, 
     "tags": [
       "a6", 
@@ -253,8 +1069,45 @@
       "yamaha"
     ]
   }, 
+  "27": {
+    "dir": 1, 
+    "filename": "1.wav", 
+    "id": 183712, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "28": {
+    "dir": 1, 
+    "filename": "2.wav", 
+    "id": 183709, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "29": {
+    "dir": 1, 
+    "filename": "3.wav", 
+    "id": 183703, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
   "3": {
     "dir": 0, 
+    "filename": "3.wav", 
     "id": 261977, 
     "tags": [
       "sica", 
@@ -270,8 +1123,128 @@
       "porto"
     ]
   }, 
+  "30": {
+    "dir": 1, 
+    "filename": "4.wav", 
+    "id": 183710, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "31": {
+    "dir": 1, 
+    "filename": "5.wav", 
+    "id": 183704, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "32": {
+    "dir": 1, 
+    "filename": "6.wav", 
+    "id": 183820, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "33": {
+    "dir": 1, 
+    "filename": "7.wav", 
+    "id": 183822, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "34": {
+    "dir": 1, 
+    "filename": "8.wav", 
+    "id": 183819, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "35": {
+    "dir": 1, 
+    "filename": "9.wav", 
+    "id": 183821, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "36": {
+    "dir": 1, 
+    "filename": "10.wav", 
+    "id": 183773, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "37": {
+    "dir": 1, 
+    "filename": "11.wav", 
+    "id": 266476, 
+    "tags": [
+      "bass", 
+      "electric", 
+      "tone", 
+      "guitar"
+    ]
+  }, 
+  "38": {
+    "dir": 1, 
+    "filename": "12.wav", 
+    "id": 266469, 
+    "tags": [
+      "electric", 
+      "bass", 
+      "tone", 
+      "guitar"
+    ]
+  }, 
+  "39": {
+    "dir": 1, 
+    "filename": "13.aiff", 
+    "id": 314851, 
+    "tags": [
+      "G3", 
+      "midi-note-56", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "4": {
     "dir": 0, 
+    "filename": "4.wav", 
     "id": 261673, 
     "tags": [
       "sica", 
@@ -287,8 +1260,139 @@
       "porto"
     ]
   }, 
+  "40": {
+    "dir": 1, 
+    "filename": "14.aiff", 
+    "id": 314852, 
+    "tags": [
+      "A3", 
+      "midi-note-57", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "41": {
+    "dir": 1, 
+    "filename": "15.aiff", 
+    "id": 314853, 
+    "tags": [
+      "ASharp3", 
+      "midi-note-58", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "42": {
+    "dir": 1, 
+    "filename": "16.aiff", 
+    "id": 314854, 
+    "tags": [
+      "B3", 
+      "midi-note-59", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "43": {
+    "dir": 1, 
+    "filename": "17.aiff", 
+    "id": 314855, 
+    "tags": [
+      "C4", 
+      "midi-note-60", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "44": {
+    "dir": 1, 
+    "filename": "18.aiff", 
+    "id": 314856, 
+    "tags": [
+      "CSharp4", 
+      "midi-note-61", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "45": {
+    "dir": 1, 
+    "filename": "19.aiff", 
+    "id": 314857, 
+    "tags": [
+      "D4", 
+      "midi-note-62", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "46": {
+    "dir": 1, 
+    "filename": "20.aiff", 
+    "id": 314858, 
+    "tags": [
+      "DSharp4", 
+      "midi-note-63", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "47": {
+    "dir": 1, 
+    "filename": "21.aiff", 
+    "id": 314859, 
+    "tags": [
+      "E4", 
+      "midi-note-64", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "48": {
+    "dir": 1, 
+    "filename": "22.aiff", 
+    "id": 314860, 
+    "tags": [
+      "ESharp4", 
+      "midi-note-65", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "49": {
+    "dir": 1, 
+    "filename": "23.aiff", 
+    "id": 314861, 
+    "tags": [
+      "F4", 
+      "midi-note-66", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "5": {
     "dir": 0, 
+    "filename": "5.wav", 
     "id": 261772, 
     "tags": [
       "sica", 
@@ -304,8 +1408,132 @@
       "porto"
     ]
   }, 
+  "50": {
+    "dir": 1, 
+    "filename": "24.aiff", 
+    "id": 314862, 
+    "tags": [
+      "FSharp4", 
+      "midi-note-67", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "51": {
+    "dir": 1, 
+    "filename": "25.aiff", 
+    "id": 314863, 
+    "tags": [
+      "G4", 
+      "midi-note-68", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "52": {
+    "dir": 1, 
+    "filename": "26.aiff", 
+    "id": 314864, 
+    "tags": [
+      "A4", 
+      "midi-note-69", 
+      "Yamaha-CS-30L", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "53": {
+    "dir": 2, 
+    "filename": "1.wav", 
+    "id": 183817, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "54": {
+    "dir": 2, 
+    "filename": "2.wav", 
+    "id": 183816, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "55": {
+    "dir": 2, 
+    "filename": "3.wav", 
+    "id": 183814, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "56": {
+    "dir": 2, 
+    "filename": "4.wav", 
+    "id": 183815, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "57": {
+    "dir": 2, 
+    "filename": "5.wav", 
+    "id": 183813, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "58": {
+    "dir": 2, 
+    "filename": "6.wav", 
+    "id": 183732, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "59": {
+    "dir": 2, 
+    "filename": "7.wav", 
+    "id": 183730, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
   "6": {
     "dir": 0, 
+    "filename": "6.wav", 
     "id": 261672, 
     "tags": [
       "sica", 
@@ -321,9 +1549,269 @@
       "porto"
     ]
   }, 
+  "60": {
+    "dir": 2, 
+    "filename": "8.wav", 
+    "id": 183725, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "61": {
+    "dir": 2, 
+    "filename": "9.wav", 
+    "id": 183807, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "62": {
+    "dir": 2, 
+    "filename": "10.wav", 
+    "id": 183806, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "63": {
+    "dir": 2, 
+    "filename": "11.wav", 
+    "id": 183805, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "64": {
+    "dir": 2, 
+    "filename": "12.wav", 
+    "id": 183808, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "65": {
+    "dir": 2, 
+    "filename": "13.wav", 
+    "id": 183809, 
+    "tags": [
+      "acoustic", 
+      "multisample", 
+      "1-shot", 
+      "velocity", 
+      "guitar"
+    ]
+  }, 
+  "66": {
+    "dir": 2, 
+    "filename": "14.wav", 
+    "id": 311177, 
+    "tags": [
+      "ESharp5", 
+      "midi-note-77", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "67": {
+    "dir": 2, 
+    "filename": "15.wav", 
+    "id": 311178, 
+    "tags": [
+      "F5", 
+      "midi-note-78", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "68": {
+    "dir": 2, 
+    "filename": "16.wav", 
+    "id": 311179, 
+    "tags": [
+      "FSharp5", 
+      "midi-note-79", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "69": {
+    "dir": 2, 
+    "filename": "17.wav", 
+    "id": 311180, 
+    "tags": [
+      "G5", 
+      "midi-note-80", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
   "7": {
     "dir": 0, 
+    "filename": "7.wav", 
     "id": 261974, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "70": {
+    "dir": 2, 
+    "filename": "18.wav", 
+    "id": 311181, 
+    "tags": [
+      "A5", 
+      "midi-note-81", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "71": {
+    "dir": 2, 
+    "filename": "19.wav", 
+    "id": 311182, 
+    "tags": [
+      "ASharp5", 
+      "midi-note-82", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "72": {
+    "dir": 2, 
+    "filename": "20.wav", 
+    "id": 311183, 
+    "tags": [
+      "B5", 
+      "midi-note-83", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "73": {
+    "dir": 2, 
+    "filename": "21.wav", 
+    "id": 311184, 
+    "tags": [
+      "C6", 
+      "midi-note-84", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "74": {
+    "dir": 2, 
+    "filename": "22.wav", 
+    "id": 311185, 
+    "tags": [
+      "CSharp6", 
+      "midi-note-85", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "75": {
+    "dir": 2, 
+    "filename": "23.wav", 
+    "id": 311186, 
+    "tags": [
+      "D6", 
+      "midi-note-86", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "76": {
+    "dir": 2, 
+    "filename": "24.wav", 
+    "id": 311187, 
+    "tags": [
+      "DSharp6", 
+      "midi-note-87", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "77": {
+    "dir": 2, 
+    "filename": "25.wav", 
+    "id": 311188, 
+    "tags": [
+      "E6", 
+      "midi-note-88", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "78": {
+    "dir": 2, 
+    "filename": "26.wav", 
+    "id": 311189, 
+    "tags": [
+      "ESharp6", 
+      "midi-note-89", 
+      "Roland-SH-2", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "79": {
+    "dir": 3, 
+    "filename": "1.wav", 
+    "id": 261716, 
     "tags": [
       "sica", 
       "Casa-da-m", 
@@ -340,6 +1828,7 @@
   }, 
   "8": {
     "dir": 0, 
+    "filename": "8.wav", 
     "id": 275364, 
     "tags": [
       "electric", 
@@ -348,8 +1837,147 @@
       "guitar"
     ]
   }, 
+  "80": {
+    "dir": 3, 
+    "filename": "2.aiff", 
+    "id": 294951, 
+    "tags": [
+      "G5", 
+      "midi-note-80", 
+      "Korg-Mono-Poly", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "81": {
+    "dir": 3, 
+    "filename": "3.aiff", 
+    "id": 294952, 
+    "tags": [
+      "A5", 
+      "midi-note-81", 
+      "Korg-Mono-Poly", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "82": {
+    "dir": 3, 
+    "filename": "4.aiff", 
+    "id": 294953, 
+    "tags": [
+      "ASharp5", 
+      "midi-note-82", 
+      "Korg-Mono-Poly", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "83": {
+    "dir": 3, 
+    "filename": "5.aiff", 
+    "id": 294954, 
+    "tags": [
+      "B5", 
+      "midi-note-83", 
+      "Korg-Mono-Poly", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "84": {
+    "dir": 3, 
+    "filename": "6.aiff", 
+    "id": 294955, 
+    "tags": [
+      "C6", 
+      "midi-note-84", 
+      "Korg-Mono-Poly", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "85": {
+    "dir": 3, 
+    "filename": "7.aiff", 
+    "id": 294956, 
+    "tags": [
+      "CSharp6", 
+      "midi-note-85", 
+      "Korg-Mono-Poly", 
+      "synthesizer", 
+      "single-note", 
+      "multisample"
+    ]
+  }, 
+  "86": {
+    "dir": 3, 
+    "filename": "8.wav", 
+    "id": 181742, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "87": {
+    "dir": 3, 
+    "filename": "9.wav", 
+    "id": 181743, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "88": {
+    "dir": 3, 
+    "filename": "10.wav", 
+    "id": 181737, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "89": {
+    "dir": 3, 
+    "filename": "11.wav", 
+    "id": 181738, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
   "9": {
     "dir": 0, 
+    "filename": "9.wav", 
     "id": 154020, 
     "tags": [
       "multisample", 
@@ -363,5 +1991,170 @@
       "classical-guitar"
     ]
   }, 
-  "soundgroup": "keyboard"
+  "90": {
+    "dir": 3, 
+    "filename": "12.wav", 
+    "id": 181739, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "91": {
+    "dir": 3, 
+    "filename": "13.wav", 
+    "id": 181736, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "92": {
+    "dir": 3, 
+    "filename": "14.wav", 
+    "id": 181733, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "93": {
+    "dir": 3, 
+    "filename": "15.wav", 
+    "id": 181732, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "94": {
+    "dir": 3, 
+    "filename": "16.wav", 
+    "id": 181731, 
+    "tags": [
+      "piano", 
+      "kalimba", 
+      "percussion", 
+      "lamellaphone", 
+      "sansula", 
+      "thumb", 
+      "mbira", 
+      "melodic"
+    ]
+  }, 
+  "95": {
+    "dir": 3, 
+    "filename": "17.wav", 
+    "id": 261930, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "96": {
+    "dir": 3, 
+    "filename": "18.wav", 
+    "id": 261970, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "97": {
+    "dir": 3, 
+    "filename": "19.wav", 
+    "id": 261681, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "98": {
+    "dir": 3, 
+    "filename": "20.wav", 
+    "id": 261751, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "99": {
+    "dir": 3, 
+    "filename": "21.wav", 
+    "id": 261683, 
+    "tags": [
+      "sica", 
+      "Casa-da-m", 
+      "Digitopia", 
+      "o", 
+      "Gamel", 
+      "pia", 
+      "Gamelan", 
+      "digitopia", 
+      "Java", 
+      "Digit", 
+      "porto"
+    ]
+  }, 
+  "soundgroup": "Tibetan Bell"
 }

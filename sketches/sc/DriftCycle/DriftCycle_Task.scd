@@ -5,10 +5,10 @@ ctkgroup = CtkGroup.play(server:s);
 routeGrain = {
 	var task, sndpath, folder1, folder2, folder3, folder4;
 
-	folder1 = "/Users/erikparr/Documents/_Projects/LandscapesStudy/snd/vocal-c4/05";
-	folder2 = "/Users/erikparr/Documents/_Projects/LandscapesStudy/snd/vocal-c4/06";
-	folder3 = "/Users/erikparr/Documents/_Projects/LandscapesStudy/snd/vocal-c4/07";
-	folder4 = "/Users/erikparr/Documents/_Projects/LandscapesStudy/snd/vocal-c4/08";
+	folder1 = "/Users/erikparr/Documents/_Projects/Landscapes/snd/test/2";
+	folder2 = "/Users/erikparr/Documents/_Projects/Landscapes/snd/test/3";
+	folder3 = "/Users/erikparr/Documents/_Projects/Landscapes/snd/test/4";
+	folder4 = "/Users/erikparr/Documents/_Projects/Landscapes/snd/test/5";
 
 
 
@@ -103,7 +103,7 @@ procGrain = {
 
 	proc.function_({arg group, routebus, server;
 		var grainDur,note1;
-		grainDur = 0.1;
+		grainDur = 0.01;
 		Task({
 			inf.do({
 				note1 = ~synth2.note( target:ctkgroup, addAction:\tail )
@@ -113,7 +113,7 @@ procGrain = {
 					~bus1[0.rrand(numBuffers-1)]].choose)
 				.outbus_(0)
 				.amp_(1)
-				.dur_(grainDur).play;
+				.dur_(grainDur*1.rrand(15)).play;
 				(grainDur*0.2).wait;
 			})
 		});
@@ -127,6 +127,8 @@ eventScore = Routine{
 	proc1 = procGrain.value(); //must create a new instance of procmod so it can be called in a routine
 	proc1.play;
 	"playing".postln;
+	30.wait;
+	proc1.release(5);
 	// 20.wait;
 };
 y=eventScore.play;
