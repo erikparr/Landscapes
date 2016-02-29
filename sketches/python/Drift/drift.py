@@ -30,6 +30,7 @@ sndpath = '/Users/erikparr/Documents/_Projects/Landscapes/snd/test/'
 currentPath = '/Users/erikparr/Documents/_Projects/Landscapes/sketches/python/Drift/'
 metadata = JSONWriter(soundgroup, currentPath+'metadata.json')
 descriptors = {}
+
 #----
 
 def refreshToken():
@@ -53,8 +54,11 @@ def loadSoundMetadata():
     global groupIndex
     global targetDir
     global currentId
+    rootData = {}
+    rootData[soundgroup] = {} #rootData should contain useful info about the current sound group
+    rootData[soundgroup]['groupData'] = {'numFiles':'', 'fileTypes':''}
     if metadata.fileExists() == False or NEWSESSION or metadata.isNewFile():
-        metadata.createNew({"soundgroup":soundgroup})
+        metadata.createNew(rootData)
     else:
         soundfileIndex = metadata.getSoundFileIndex()
 #        groupIndex = metadata.getGroupIndex()

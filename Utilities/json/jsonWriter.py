@@ -17,7 +17,6 @@ class JSONWriter:
     
     def createNew(self, dictionary):
         global path
-        global rootName
     #    tags = dictionary['tags']
     #    for i in tags:
     #        print i
@@ -29,7 +28,7 @@ class JSONWriter:
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
-        data[targetKey] = (newDict)
+        data[rootName][targetKey] = (newDict)
 #        print "appending to json file: " +
         jsonFile = open(path, "r+")
         jsonFile.truncate()
@@ -39,11 +38,12 @@ class JSONWriter:
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
-        for elements in data:
-            if data[elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
-                id = data[elements]["id"]
+        for elements in data[rootName]:
+            #if data[rootName][elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
+            if 'id' in data[rootName][elements].keys():
+                id = data[rootName][elements]['id']
                 if id == soundId:
-#                    print "found it: "+str(id)
+    #                    print "found it: "+str(id)
                     return True
         print "New sound id: "+ str(soundId)
         return False
@@ -53,12 +53,12 @@ class JSONWriter:
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
-        for elements in data:
+        for elements in data[rootName]:
             print elements
-            if data[elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
-                tags = data[elements]["tags"]
-                for i in tags:
-                    print i
+            #if data[rootName][elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
+            tags = data[rootName][elements]["tags"]
+            for i in tags:
+                print i
 
     def getSoundFileIndex(self):
         global path

@@ -4,7 +4,7 @@ JSONArray values;
 void setup() {
 
   json = loadJSONObject("/Users/erikparr/Documents/_Projects/Landscapes/sketches/python/Drift/metadata.json");
-  //JSONObject soundgroup = json.getJSONObject("soundgroup");
+  JSONObject soundgroup = json.getJSONObject("soundgroup");
   JSONArray values = json.getJSONArray("soundgroup");
 
 
