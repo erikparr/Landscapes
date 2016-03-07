@@ -55,8 +55,8 @@ def loadSoundMetadata():
     global targetDir
     global currentId
     rootData = {}
-    rootData[soundgroup] = {} #rootData should contain useful info about the current sound group
-    rootData[soundgroup]['groupData'] = {'numFiles':'', 'fileTypes':''}
+    rootData[soundgroup] = [{}] #rootData should contain useful info about the current sound group
+    rootData[soundgroup][0] = {'numFiles':'', 'fileTypes':''}
     if metadata.fileExists() == False or NEWSESSION or metadata.isNewFile():
         metadata.createNew(rootData)
     else:

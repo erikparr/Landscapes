@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		3FB9B52D1C8E049100CDF047 /* metadata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metadata.json; sourceTree = "<group>"; };
 		3FD77C491C7742D8006BA083 /* drift.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = drift.py; sourceTree = "<group>"; };
 		3FD77C4A1C77445D006BA083 /* token.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = token.json; sourceTree = "<group>"; };
 		3FD77C4B1C7745A5006BA083 /* jsonWriter.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = jsonWriter.py; path = ../../../Utilities/json/jsonWriter.py; sourceTree = "<group>"; };
 		3FD77C4C1C77548B006BA083 /* jsonWriterExample.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = jsonWriterExample.py; path = ../../../Utilities/json/jsonWriterExample.py; sourceTree = "<group>"; };
-		3FD77C4D1C77738B006BA083 /* metadata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metadata.json; sourceTree = "<group>"; };
+		3FD77C4D1C77738B006BA083 /* metadata1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metadata1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -22,7 +23,8 @@
 				3FD77C4A1C77445D006BA083 /* token.json */,
 				3FD77C4B1C7745A5006BA083 /* jsonWriter.py */,
 				3FD77C4C1C77548B006BA083 /* jsonWriterExample.py */,
-				3FD77C4D1C77738B006BA083 /* metadata.json */,
+				3FD77C4D1C77738B006BA083 /* metadata1.json */,
+				3FB9B52D1C8E049100CDF047 /* metadata.json */,
 			);
 			sourceTree = "<group>";
 		};

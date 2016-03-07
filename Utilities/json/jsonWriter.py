@@ -28,7 +28,7 @@ class JSONWriter:
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
-        data[rootName][targetKey] = (newDict)
+        data[rootName].append(newDict)
 #        print "appending to json file: " +
         jsonFile = open(path, "r+")
         jsonFile.truncate()
@@ -38,10 +38,12 @@ class JSONWriter:
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
-        for elements in data[rootName]:
-            #if data[rootName][elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
-            if 'id' in data[rootName][elements].keys():
-                id = data[rootName][elements]['id']
+        data = data[rootName][0]
+        for elements in data:
+#            #if data[rootName][elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
+            print "element: "+str(data)
+            if 'id' in data:
+                id = data['id']
                 if id == soundId:
     #                    print "found it: "+str(id)
                     return True
