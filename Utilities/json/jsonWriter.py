@@ -38,12 +38,11 @@ class JSONWriter:
         global path
         jsonFile = open(path, "r+")
         data = json.load(jsonFile)
-        data = data[rootName][0]
+        data = data[rootName]
         for elements in data:
-#            #if data[rootName][elements] != str(rootName): #dont search the root element (maybe there is a better way to do this)
-            print "element: "+str(data)
-            if 'id' in data:
-                id = data['id']
+            print "element: "+str(elements)
+            if 'id' in elements:
+                id = elements['id']
                 if id == soundId:
     #                    print "found it: "+str(id)
                     return True
