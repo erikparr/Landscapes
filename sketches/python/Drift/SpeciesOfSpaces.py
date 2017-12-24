@@ -1,10 +1,3 @@
-
-
-
-'''
-To do -- instead of json files just add the metadata to each wav file
-'''
-
 import os
 import urllib2
 import pycurl
@@ -22,7 +15,7 @@ sys.path.insert(0, '/Users/erikparr/Documents/_Projects_2016/Landscapes/Utilitie
 from jsonWriter import JSONWriter
 
 #init
-soundgroup = "city"
+soundgroup = "field-recording"
 NEWSESSION = True
 c = freesound.FreesoundClient()
 apiKey = "a93ac1a1b2bfc3118513999530391a5bb874edf7" #apikey/token/Client secret
@@ -30,7 +23,7 @@ clientId = "0eda595d0c08565c7a7c"
 refreshToken = ""
 accessToken = ""
 c.set_token(apiKey,"token")
-startId = 197759 #starting "seed" Freesound sound ID
+startId = 5560 #starting "seed" Freesound sound ID
 currentId = startId #current sound ID in the process
 soundfileIndex = 0 #index of soundfile in the directory
 groupIndex = 0 #index of soundfile in the group

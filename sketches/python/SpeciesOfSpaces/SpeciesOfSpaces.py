@@ -1,10 +1,3 @@
-
-
-
-'''
-To do -- instead of json files just add the metadata to each wav file
-'''
-
 import os
 import urllib2
 import pycurl
@@ -16,31 +9,13 @@ import json
 from wavefile import WaveWriter, Format
 import numpy as np
 
-sys.path.insert(0, '/Users/erikparr/Documents/_Projects_2016/Landscapes/Utilities/freesound')
+sys.path.insert(0, '/Users/erikparr/Documents/_2017/Landscapes/Utilities/freesound')
 import freesound
-sys.path.insert(0, '/Users/erikparr/Documents/_Projects_2016/Landscapes/Utilities/json')
+sys.path.insert(0, '/Users/erikparr/Documents/_2017/Landscapes/Utilities/json')
 from jsonWriter import JSONWriter
+sys.path.insert(0, '/Users/erikparr/Documents/_2017/Landscapes/Utilities/multisampleToSample')
+from MultisamplesToSamples import MultisampleToSample
 
-#init
-soundgroup = "city"
-NEWSESSION = True
-c = freesound.FreesoundClient()
-apiKey = "a93ac1a1b2bfc3118513999530391a5bb874edf7" #apikey/token/Client secret
-clientId = "0eda595d0c08565c7a7c"
-refreshToken = ""
-accessToken = ""
-c.set_token(apiKey,"token")
-startId = 197759 #starting "seed" Freesound sound ID
-currentId = startId #current sound ID in the process
-soundfileIndex = 0 #index of soundfile in the directory
-groupIndex = 0 #index of soundfile in the group
-targetDir = 0 #current directory being downloaded to
-maxDirs = 5 # maximum number of directories
-maxSoundFiles = 25 #number of soundfiles (see: soundfileIndex) in a given folder
-sndpath = '/Users/erikparr/Documents/_Projects_2016/Landscapes/snd/'+soundgroup+'/'
-currentPath = '/Users/erikparr/Documents/_Projects_2016/Landscapes/sketches/python/Drift/'
-metadata = JSONWriter(soundgroup, currentPath+'metadata.json')
-descriptors = {}
 
 #-------------------------------------
 #python-wavefile for wav conversion and metadata writing --  NOT IMPLEMENTED -- -
@@ -54,20 +29,18 @@ descriptors = {}
 #                    data[1,512-x:] =  1
 #                    data[1,:512-x] = -1
 #                    w.write(data)
-
 #----
 
 def refreshToken():
-    global  refreshToken
     global  accessToken
-    jsonpath = '/Users/erikparr/Documents/_Projects_2016/Landscapes/sketches/python/Drift/token.json'
-    jsonFile = open(jsonpath, "r+")
+    filepath = '/Users/erikparr/Documents/_2017/Landscapes/sketches/python/SpeciesOfSpaces/token.json'
+    jsonFile = open(filepath, "r+")
     data = json.load(jsonFile)
     refreshToken = data["refresh_token"]
-    unixcmd = "curl -X POST -d 'client_id="+clientId+"&client_secret="+apiKey+"&grant_type=refresh_token&refresh_token="+refreshToken+"'"+" https://www.freesound.org/apiv2/oauth2/access_token/ >'"+jsonpath+"'"
+    unixcmd = "curl -X POST -d 'client_id="+clientId+"&client_secret="+apiKey+"&grant_type=refresh_token&refresh_token="+refreshToken+"'"+" https://www.freesound.org/apiv2/oauth2/access_token/ >'"+filepath+"'"
     os.system(unixcmd)
     time.sleep(0.5)
-    jsonFile = open(jsonpath, "r+")
+    jsonFile = open(filepath, "r+")
     data = json.load(jsonFile)
     accessToken =  data["access_token"]
     print "accessToken: "+accessToken
@@ -79,11 +52,11 @@ def loadSoundMetadata():
     global groupIndex
     global targetDir
     global currentId
-    rootData = {}
-    rootData[soundgroup] = [{}] #rootData should contain useful info about the current sound group
-    rootData[soundgroup][0] = {'numFiles':'', 'fileTypes':''}
+    data = {}
+    data[soundgroup] = [{}] #data should contain useful info about the current sound group
+#    data[soundgroup][0] = {'numFiles':'', 'fileTypes':''}
     if metadata.fileExists() == False or NEWSESSION or metadata.isNewFile():
-        metadata.createNew(rootData)
+        metadata.createNew(data)
     else:
         soundfileIndex = metadata.getSoundFileIndex()
 #        groupIndex = metadata.getGroupIndex()
@@ -134,7 +107,7 @@ def driftSound():
     similarSoundList = None
     newSound = getNewSound(currentId, soundfileIndex)
         
-    if metadata.doesIdExist(currentId):
+    if metadata.doesIdExist(currentId) == False:
         while similarSoundList is None:
             try:
                 similarSoundList = newSound.get_similar()
@@ -165,12 +138,33 @@ def driftSound():
     os.system(unixcmd)
     manageData()
 # ------------------------------------
-
+#init
+soundgroup = "field-recording"
+NEWSESSION = True
+c = freesound.FreesoundClient()
+apiKey = "a93ac1a1b2bfc3118513999530391a5bb874edf7" #apikey/token/Client secret
+clientId = "0eda595d0c08565c7a7c"
+#refreshToken = ""
+accessToken = ""
+c.set_token(apiKey,"token")
+startId = 5560 #starting "seed" Freesound sound ID
+currentId = startId #current sound ID in the process
+soundfileIndex = 0 #index of soundfile in the directory
+groupIndex = 0 #index of soundfile in the group
+targetDir = 0 #current directory being downloaded to
+maxDirs = 5 # maximum number of directories
+maxSoundFiles = 25 #number of soundfiles (see: soundfileIndex) in a given folder
+sndpath = '/Users/erikparr/Documents/_Projects_2016/Landscapes/snd/'+soundgroup+'/'
+currentPath = '/Users/erikparr/Documents/_2017/Landscapes/sketches/python/SpeciesOfSpaces/'
+metadata = JSONWriter(soundgroup, currentPath+'metadata.json')
+descriptors = {}
+# ------------------------------------
 # retrieve sounds until x directories are filled
 loadSoundMetadata()
-refreshToken()
-while targetDir<=maxDirs:
-    driftSound();
-    time.sleep(1)
+#refreshToken()
+MultisampleToSample(currentId).convert()
+#while targetDir<=maxDirs:
+#    driftSound();
+#    time.sleep(1)
 
 
